@@ -1,0 +1,13 @@
+platform :ios, '14.0'
+
+target 'NavitsIDE' do
+  use_frameworks!
+
+  #Firebase Dependencies
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Database'
+  pod 'Firebase/Messaging'
+
+end
